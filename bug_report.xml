@@ -1,1 +1,19 @@
 <?xml version="1.0"?>
+<report>    
+    <id>1</id>
+    <title>"При нажатии кнопки - "Войти" на странице авторизации, сервер выдает 404 ошибку"</title>
+    <str>
+        <step1>Нажать кнопку - "Авторизация"</step1>
+        <step2>Ввести логин - Georgiy</step2>
+        <step3>Ввести пароль - 123456789</step3>
+        <step4>Нажать кнопку - "Войти"</step4>
+    </str>
+    <reporter>Georgiy Debrin</reporter>
+    <severity>Blocker</severity>
+    <priority>High</priority>
+    <environment>Google Chrome 112.0.5615.137</environment>
+    <attachment>bug.jpg</attachment>
+    <assignee>Georgiy Debrin</assignee>
+</report>
+
+

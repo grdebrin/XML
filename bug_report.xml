@@ -1,6 +1,7 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <report>    
     <id>1</id>
+    <project>homework</project>
     <title>"При нажатии кнопки - "Войти" на странице авторизации, сервер выдает 404 ошибку"</title>
     <str>
         <step1>Нажать кнопку - "Авторизация"</step1>
@@ -8,6 +9,9 @@
         <step3>Ввести пароль - 123456789</step3>
         <step4>Нажать кнопку - "Войти"</step4>
     </str>
+    <actual_result>Страница не загружается, сервер возвращает 404 статус код</actual_result>
+    <expected_result>Загружается страница личного кабинета пользователя</expected_result>
+    <status>open</status>
     <reporter>Georgiy Debrin</reporter>
     <severity>Blocker</severity>
     <priority>High</priority>
